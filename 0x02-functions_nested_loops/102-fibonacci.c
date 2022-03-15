@@ -27,6 +27,6 @@ int main(void)
 		j = k;
 		k = next;
 	}
-
+	printf("\n");
 	return (0);
 }
