@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * print_diagonal - check for a digit
- * @n : number of \\ to be printed
- * Return:void
+ * print_diagonal - draws a diagonal line on the terminal
+ * @n: number of times the character \ should be printed
  */
-
 void print_diagonal(int n)
 {
 

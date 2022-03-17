@@ -1,8 +1,8 @@
 #include "main.h"
+
 /**
- * print_line - Entry Point
- * @n : number of times the character to be printed
- * Return:dash character
+ * print_line - draws a straight line in the terminal
+ * @n: number of times the character _ should be printed
  */
 void print_line(int n)
 {
