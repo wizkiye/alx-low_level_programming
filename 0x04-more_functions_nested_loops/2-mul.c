@@ -1,11 +1,16 @@
 #include "main.h"
 /**
- * mul - Entry Poin
- * @a : first digit
- * @b : second digit
- * Return:a * b
+ * print_numbers - Entry Point
+ * Return:numbers
  */
-int mul(int a, int b)
+void print_numbers(void)
 {
-	return (a * b);
+	int n = 0;
+
+	while (n <= 9)
+	{
+		_putchar(n + 48);
+		n++;
+	}
+	_putchar('\n');
 }
